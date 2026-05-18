@@ -1,0 +1,26 @@
+# Everblush Template: This file is a template generated from the 'kanso' theme.
+# Please review and update colors to fully match the Everblush palette.
+#
+# Everblush Palette:
+# background_dark: #1e252a
+# background_light: #2a3138
+# foreground: #dadada
+# red: #e57474
+# green: #8ccf7e
+# yellow: #e5c76b
+# blue: #67b0e5
+# magenta: #c47fd5
+# cyan: #63cdcf
+# white: #dadada
+# black: #1e252a
+[color]
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#67b0e5' # everblush_blue
+gradient_color_2 = '#8ccf7e' # everblush_green
+gradient_color_3 = '#8ccf7e' # everblush_green (mapped from a brighter green)
+gradient_color_4 = '#e5c76b' # everblush_yellow
+gradient_color_5 = '#e5c76b' # everblush_yellow (mapped from a brighter yellow)
+gradient_color_6 = '#e5c76b' # everblush_yellow
+gradient_color_7 = '#e57474' # everblush_red
+gradient_color_8 = '#e57474' # everblush_red (mapped from a brighter red)

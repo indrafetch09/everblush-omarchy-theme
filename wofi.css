@@ -1,0 +1,65 @@
+/* Everblush Template: This file is a template generated from the 'batou' theme.
+ * Please review and update colors to fully match the Everblush palette.
+ *
+ * Everblush Palette:
+ * background_dark: #1e252a
+ * background_light: #2a3138
+ * foreground: #dadada
+ * red: #e57474
+ * green: #8ccf7e
+ * yellow: #e5c76b
+ * blue: #67b0e5
+ * magenta: #c47fd5
+ * cyan: #63cdcf
+ * white: #dadada
+ * black: #1e252a
+ */
+@define-color bg #1e252a; /* everblush_background_dark */
+@define-color fg #dadada; /* everblush_foreground */
+@define-color gray1 #67b0e5; /* everblush_blue (mapped from a lighter gray for selected) */
+@define-color gray2 #2a3138; /* everblush_background_light */
+@define-color gray3 #c47fd5; /* everblush_magenta (mapped from a medium gray for border) */
+@define-color gray4 #dadada; /* everblush_foreground */
+@define-color gray5 #dadada; /* everblush_foreground */
+@define-color fg_bright #dadada; /* everblush_foreground */
+
+window {
+    background-color: @bg;
+    border: 2px solid @gray3;
+}
+
+input {
+    background-color: @bg;
+    color: @fg;
+    border: 1px solid @gray2;
+}
+
+input:selected {
+    background-color: @gray1;
+    color: @fg_bright;
+}
+
+#entry {
+    color: @fg;
+    background-color: @bg;
+    padding: 5px;
+    margin: 2px;
+}
+
+#entry:selected {
+    background-color: @gray1;
+    color: @fg_bright;
+}
+
+scrollbar {
+    background-color: @bg;
+}
+
+scrollbar slider {
+    background-color: @gray2;
+    border-radius: 5px;
+}
+
+scrollbar slider:hover {
+    background-color: @gray3;
+}

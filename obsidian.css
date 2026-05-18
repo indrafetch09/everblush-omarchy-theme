@@ -1,0 +1,172 @@
+/* Everblush Template: This file is a template generated from the 'kurenai' theme.
+ * Please review and update colors to fully match the Everblush palette.
+ *
+ * Everblush Palette:
+ * background_dark: #1e252a
+ * background_light: #2a3138
+ * foreground: #dadada
+ * red: #e57474
+ * green: #8ccf7e
+ * yellow: #e5c76b
+ * blue: #67b0e5
+ * magenta: #c47fd5
+ * cyan: #63cdcf
+ * white: #dadada
+ * black: #1e252a
+ */
+.theme-dark {
+  --accent-h: 0; /* Mapped from red hue */
+  --accent-s: 70%; /* Adjust saturation for Everblush red */
+  --accent-l: 60%; /* Adjust lightness for Everblush red */
+
+  --background-primary: #1e252a; /* everblush_background_dark */
+  --background-primary-alt: #1e252a; /* everblush_background_dark */
+  --background-secondary: #1e252a; /* everblush_background_dark */
+  --background-secondary-alt: #1e252a; /* everblush_background_dark */
+  --background-modifier-border: #2a3138; /* everblush_background_light */
+  --background-modifier-form-field: #2a3138; /* everblush_background_light */
+  --background-modifier-form-field-highlighted: #2a3138; /* everblush_background_light */
+  --background-modifier-box-shadow: rgba(30, 37, 42, 0.5); /* everblush_background_dark with transparency */
+  --background-modifier-success: #8ccf7e; /* everblush_green */
+  --background-modifier-error: #e57474; /* everblush_red */
+  --background-modifier-error-rgb: 229, 116, 116; /* everblush_red RGB */
+  --background-modifier-error-hover: #e57474; /* everblush_red */
+  --background-modifier-cover: rgba(30, 37, 42, 0.8); /* everblush_background_dark with transparency */
+
+  --text-normal: #dadada; /* everblush_foreground */
+  --text-muted: #67b0e5; /* everblush_blue */
+  --text-faint: #63cdcf; /* everblush_cyan */
+  --text-on-accent: #dadada; /* everblush_foreground */
+  --text-on-accent-inverted: #1e252a; /* everblush_background_dark */
+  --text-error: #e57474; /* everblush_red */
+  --text-error-hover: #e57474; /* everblush_red */
+  --text-highlight-bg: rgba(229, 116, 116, 0.25); /* everblush_red with transparency */
+  --text-highlight-bg-active: rgba(229, 116, 116, 0.4); /* everblush_red with transparency */
+  --text-selection: rgba(229, 116, 116, 0.4); /* everblush_red with transparency */
+  --text-accent: #e57474; /* everblush_red */
+  --text-accent-hover: #e57474; /* everblush_red */
+
+  --interactive-normal: #2a3138; /* everblush_background_light */
+  --interactive-hover: #2a3138; /* everblush_background_light */
+  --interactive-accent: #e57474; /* everblush_red */
+  --interactive-accent-rgb: 229, 116, 116; /* everblush_red RGB */
+  --interactive-accent-hover: #e57474; /* everblush_red */
+
+  --scrollbar-bg: rgba(30, 37, 42, 0); /* everblush_background_dark with transparency */
+  --scrollbar-thumb-bg: rgba(99, 205, 207, 0.2); /* everblush_cyan with transparency */
+  --scrollbar-active-thumb-bg: rgba(229, 116, 116, 0.4); /* everblush_red with transparency */
+
+  --titlebar-background: #1e252a; /* everblush_background_dark */
+  --titlebar-background-focused: #1e252a; /* everblush_background_dark */
+  --titlebar-text-color: #dadada; /* everblush_foreground */
+
+  --tab-text-color: #63cdcf; /* everblush_cyan */
+  --tab-text-color-active: #dadada; /* everblush_foreground */
+  --tab-text-color-focused: #dadada; /* everblush_foreground */
+  --tab-text-color-focused-active: #dadada; /* everblush_foreground */
+  --tab-background-active: #1e252a; /* everblush_background_dark */
+
+  --nav-item-color: #dadada; /* everblush_foreground */
+  --nav-item-color-hover: #dadada; /* everblush_foreground */
+  --nav-item-color-active: #e57474; /* everblush_red */
+  --nav-item-background-hover: #2a3138; /* everblush_background_light */
+  --nav-item-background-active: rgba(229, 116, 116, 0.15); /* everblush_red with transparency */
+
+  --tag-color: #8ccf7e; /* everblush_green */
+  --tag-color-hover: #e5c76b; /* everblush_yellow */
+  --tag-background: rgba(140, 207, 126, 0.12); /* everblush_green with transparency */
+  --tag-background-hover: rgba(140, 207, 126, 0.2); /* everblush_green with transparency */
+
+  --link-color: #e57474; /* everblush_red */
+  --link-color-hover: #e57474; /* everblush_red */
+  --link-external-color: #c47fd5; /* everblush_magenta */
+  --link-external-color-hover: #67b0e5; /* everblush_blue */
+  --link-unresolved-color: #67b0e5; /* everblush_blue */
+  --link-unresolved-opacity: 0.8;
+
+  --code-normal: #e5c76b; /* everblush_yellow */
+  --code-comment: #63cdcf; /* everblush_cyan */
+  --code-function: #e57474; /* everblush_red */
+  --code-keyword: #e57474; /* everblush_red */
+  --code-string: #8ccf7e; /* everblush_green */
+  --code-value: #e5c76b; /* everblush_yellow */
+  --code-tag: #e57474; /* everblush_red */
+  --code-property: #dadada; /* everblush_foreground */
+  --code-punctuation: #67b0e5; /* everblush_blue */
+  --code-background: #1e252a; /* everblush_background_dark */
+
+  --bold-color: #dadada; /* everblush_foreground */
+  --italic-color: #8ccf7e; /* everblush_green */
+
+  --blockquote-border-color: #e57474; /* everblush_red */
+
+  --h1-color: #e57474; /* everblush_red */
+  --h2-color: #67b0e5; /* everblush_blue */
+  --h3-color: #c47fd5; /* everblush_magenta */
+  --h4-color: #8ccf7e; /* everblush_green */
+  --h5-color: #e5c76b; /* everblush_yellow */
+  --h6-color: #dadada; /* everblush_foreground */
+
+  --table-header-background: #1e252a; /* everblush_background_dark */
+  --table-header-background-hover: #2a3138; /* everblush_background_light */
+  --table-row-even-background: #1e252a; /* everblush_background_dark */
+  --table-row-odd-background: #1e252a; /* everblush_background_dark */
+
+  --checkbox-color: #e57474; /* everblush_red */
+  --checkbox-color-hover: #e57474; /* everblush_red */
+  --checkbox-border-color: #2a3138; /* everblush_background_light */
+
+  --list-marker-color: #e57474; /* everblush_red */
+
+  --collapse-icon-color: #63cdcf; /* everblush_cyan */
+  --collapse-icon-color-collapsed: #e57474; /* everblush_red */
+
+  --graph-line: rgba(99, 205, 207, 0.2); /* everblush_cyan with transparency */
+  --graph-node: #dadada; /* everblush_foreground */
+  --graph-node-focused: #e57474; /* everblush_red */
+  --graph-node-tag: #8ccf7e; /* everblush_green */
+  --graph-node-attachment: #e5c76b; /* everblush_yellow */
+  --graph-node-unresolved: #63cdcf; /* everblush_cyan */
+
+  --cursor: #dadada; /* everblush_foreground */
+}
+
+/* Additional refinements */
+.theme-dark .markdown-preview-view {
+  font-family: inherit;
+}
+
+.theme-dark .cm-s-obsidian .cm-cursor {
+  border-left-color: #dadada; /* everblush_foreground */
+}
+
+.theme-dark .suggestion-item.is-selected {
+  background-color: rgba(229, 116, 116, 0.2); /* everblush_red with transparency */
+}
+
+.theme-dark .menu-item:hover {
+  background-color: #2a3138; /* everblush_background_light */
+}
+
+.theme-dark .modal-container .modal {
+  background-color: #1e252a; /* everblush_background_dark */
+  border: 1px solid #2a3138; /* everblush_background_light */
+}
+
+.theme-dark .prompt {
+  background-color: #1e252a; /* everblush_background_dark */
+  border: 1px solid #2a3138; /* everblush_background_light */
+}
+
+.theme-dark .prompt-input {
+  background-color: #2a3138; /* everblush_background_light */
+}
+
+.theme-dark hr {
+  border-color: #2a3138; /* everblush_background_light */
+}
+
+.theme-dark mark {
+  background-color: rgba(229, 116, 116, 0.3); /* everblush_red with transparency */
+  color: #dadada; /* everblush_foreground */
+}
