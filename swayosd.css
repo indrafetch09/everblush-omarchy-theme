@@ -19,3 +19,30 @@
 @define-color label  #dadada; /* everblush_foreground */
 @define-color image #dadada; /* everblush_foreground */
 @define-color progress #e5c76b; /* everblush_yellow */
+
+window {
+    border-radius: 3;
+    opacity: 0.97;
+    border: 2px solid @border-color;
+
+    background-color: @background-color;
+}
+
+label {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 11pt;
+
+    color: @label;
+}
+
+image {
+    color: @image;
+}
+
+progressbar {
+    border-radius: 3;
+}
+
+progress {
+    background-color: @progress;
+}
