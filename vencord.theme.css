@@ -21,12 +21,12 @@
     * @description Match Omarchy Everblush system theme.
     * @source Generated from kanso theme
     **/
-    
+
     :root {
-        --color00: #1e252a; /* everblush_background_dark */
-        --color01: #1e252a; /* everblush_background_dark */
-        --color02: #1e252a; /* everblush_background_dark */
-        --color03: #2a3138; /* everblush_background_light */
+        --color00: #141b1e; /* everblush_background_dark */
+        --color01: #141b1e; /* everblush_background_dark */
+        --color02: #141b1e; /* everblush_background_dark */
+        --color03: #232a2d; /* everblush_background_light */
         --color04: #dadada; /* everblush_foreground */
         --color05: #dadada; /* everblush_foreground */
         --color06: #dadada; /* everblush_foreground */
@@ -42,7 +42,7 @@
        --base00: var(--color00);
     --base01: var(--color00);
     --base02: var(--color00);
-    --base03: #2a3138; /* everblush_background_light */
+    --base03: #232a2d; /* everblush_background_light */
     --base04: var(--color04);
     --base05: var(--color05);
     --base06: var(--color06);
@@ -61,19 +61,19 @@
 .theme-darker,
 .theme-midnight,
 .visual-refresh {
---background-primary: #1e252a !important; /* everblush_background_dark */
-    --background-secondary: #1e252a !important; /* everblush_background_dark */
-    --background-secondary-alt: #1e252a !important; /* everblush_background_dark */
-    --background-tertiary: #1e252a !important; /* everblush_background_dark */
-    --background-floating: #1e252a !important; /* everblush_background_dark */
-    --background-main: #1e252a !important; /* everblush_background_dark */
-    --chat-background-default: #1e252a !important; /* everblush_background_dark */
-    --home-background: #1e252a !important; /* everblush_background_dark */
-    --bg-surface-overlay: #1e252a !important; /* everblush_background_dark */
-    --bg-surface-raised: #1e252a !important; /* everblush_background_dark */
-    --background-base-lower: #1e252a !important; /* everblush_background_dark */
-    --background-base-lowest: #1e252a !important; /* everblush_background_dark */
-    
+--background-primary: #141b1e !important; /* everblush_background_dark */
+--background-secondary: #141b1e !important; /* everblush_background_dark */
+--background-secondary-alt: #141b1e !important; /* everblush_background_dark */
+--background-tertiary: #141b1e !important; /* everblush_background_dark */
+--background-floating: #141b1e !important; /* everblush_background_dark */
+--background-main: #141b1e !important; /* everblush_background_dark */
+--chat-background-default: #141b1e !important; /* everblush_background_dark */
+--home-background: #141b1e !important; /* everblush_background_dark */
+--bg-surface-overlay: #141b1e !important; /* everblush_background_dark */
+--bg-surface-raised: #141b1e !important; /* everblush_background_dark */
+--background-base-lower: #141b1e !important; /* everblush_background_dark */
+--background-base-lowest: #141b1e !important; /* everblush_background_dark */
+
     --background-accent: var(--base03) !important;
     --background-mentioned-hover: var(--base03) !important;
     --background-mentioned: var(--base03) !important;
@@ -385,10 +385,10 @@ div[class*="clear_"]:hover {
 }
 
 .theme-dark, .theme-light, .visual-refresh {
-    --primary-600: var(--base05) !important; 
+    --primary-600: var(--base05) !important;
     --primary-660: var(--base05) !important;
     --primary-800: var(--base05) !important;
-    --text-brand: var(--base0B) !important; 
+    --text-brand: var(--base0B) !important;
 }
 
 [class*="threadSuggestion"] {
