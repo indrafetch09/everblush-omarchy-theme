@@ -15,29 +15,7 @@
  * black: #1e252a
  */
 @define-color background-color #1e252a; /* everblush_background_dark */
-@define-color border-color #8ccf7e /* everblush_background_light */
-@define-color label #dadada; /* everblush_foreground */
+@define-color border-color #67b0e5; /* everblush_background_light */
+@define-color label  #dadada; /* everblush_foreground */
 @define-color image #dadada; /* everblush_foreground */
 @define-color progress #e5c76b; /* everblush_yellow */
-
-/* Cancel out Omarchy settings */
-window:not(:backdrop),
-window:backdrop {
-    border: none;
-    border-width: 0;
-    border-radius: 4px;
-    background-color: transparent;
-    box-shadow: none;
-    padding: 12px;
-}
-
-/* Draw a new background */
-window:not(:backdrop) #container,
-window:backdrop #container {
-    border: 2px solid @border-color;
-    border-radius: 6px;
-    background-color: @background-color;
-    padding: 12px;
-    background-clip: padding-box;
-    box-shadow: 2px 2px 9px 0px rgba(22, 22, 22, 1); /* Consider an Everblush-appropriate shadow color */
-}
