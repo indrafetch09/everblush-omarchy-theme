@@ -17,81 +17,66 @@
 # Bashtop theme - Everblush (Generated from Kurenai)
 # ────────────────────────────────────────────────────────────
 
-# Main background, empty for terminal default
-theme[main_bg]="" # Keep empty for terminal default or set to #1e252a for everblush_background_dark
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#141b1e"
 
 # Main text color
-theme[main_fg]="#dadada" # everblush_foreground
+theme[main_fg]="#dadada"
 
 # Title color for boxes
-theme[title]="#67b0e5" # everblush_blue (mapped from a medium gray)
+theme[title]="#dadada"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#e57474" # everblush_red
+theme[hi_fg]="#67b0e8"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#e57474" # everblush_red
+theme[selected_bg]="#232a2d"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#1e252a" # everblush_background_dark
+theme[selected_fg]="#dadada"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#67b0e5" # everblush_blue
+theme[inactive_fg]="#b3b9b8"
 
-# Misc colors for processes box
-theme[proc_misc]="#67b0e5" # everblush_blue
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#67b0e8"
 
-# Cpu box outline color
-theme[cpu_box]="#67b0e5" # everblush_blue
+# Box outline and divider line color
+theme[cpu_box]="#67b0e8"
+theme[mem_box]="#8ccf7e"
+theme[net_box]="#6cbfbf"
+theme[proc_box]="#c47fd5"
+theme[div_line]="#67b0e8"
 
-# Memory/disks box outline color
-theme[mem_box]="#67b0e5" # everblush_blue
+# Gradient for all meters and graphs
+theme[temp_start]="#e57474"
+theme[temp_mid]="#e5c76b"
+theme[temp_end]="#8ccf7e"
 
-# Net up/down box outline color
-theme[net_box]="#67b0e5" # everblush_blue
+theme[cpu_start]="#67b0e8"
+theme[cpu_mid]="#c47fd5"
+theme[cpu_end]="#6cbfbf"
 
-# Processes box outline color
-theme[proc_box]="#67b0e5" # everblush_blue
+theme[free_start]="#8ccf7e"
+theme[free_mid]="#e5c76b"
+theme[free_end]="#67b0e8"
 
-# Box divider line and small boxes line color
-theme[div_line]="#67b0e5" # everblush_blue
+theme[cached_start]="#6cbfbf"
+theme[cached_mid]="#c47fd5"
+theme[cached_end]="#e57474"
 
-# Temperature graph colors
-theme[temp_start]="#67b0e5" # everblush_blue
-theme[temp_mid]="#e57474" # everblush_red
-theme[temp_end]="#e57474" # everblush_red
+theme[available_start]="#8ccf7e"
+theme[available_mid]="#e5c76b"
+theme[available_end]="#67b0e8"
 
-# CPU graph colors
-theme[cpu_start]="#67b0e5" # everblush_blue
-theme[cpu_mid]="#e57474" # everblush_red
-theme[cpu_end]="#e57474" # everblush_red
+theme[used_start]="#e57474"
+theme[used_mid]="#c47fd5"
+theme[used_end]="#6cbfbf"
 
-# Mem/Disk free meter
-theme[free_start]="#67b0e5" # everblush_blue
-theme[free_mid]="#e57474" # everblush_red
-theme[free_end]="#e57474" # everblush_red
+theme[download_start]="#67b0e8"
+theme[download_mid]="#6cbfbf"
+theme[download_end]="#8ccf7e"
 
-# Mem/Disk cached meter
-theme[cached_start]="#67b0e5" # everblush_blue
-theme[cached_mid]="#e57474" # everblush_red
-theme[cached_end]="#e57474" # everblush_red
-
-# Mem/Disk available meter
-theme[available_start]="#67b0e5" # everblush_blue
-theme[available_mid]="#e57474" # everblush_red
-theme[available_end]="#e57474" # everblush_red
-
-# Mem/Disk used meter
-theme[used_start]="#67b0e5" # everblush_blue
-theme[used_mid]="#e57474" # everblush_red
-theme[used_end]="#e57474" # everblush_red
-
-# Download graph colors
-theme[download_start]="#67b0e5" # everblush_blue
-theme[download_mid]="#e57474" # everblush_red
-theme[download_end]="#e57474" # everblush_red
-
-# Upload graph colors
-theme[upload_start]="#67b0e5" # everblush_blue
-theme[upload_mid]="#e57474" # everblush_red
-theme[upload_end]="#e57474" # everblush_red
+theme[upload_start]="#e57474"
+theme[upload_mid]="#e5c76b"
+theme[upload_end]="#c47fd5"
