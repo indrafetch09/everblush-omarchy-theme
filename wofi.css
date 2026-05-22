@@ -14,7 +14,7 @@
  * white: #dadada
  * black: #1e252a
  */
-@define-color bg #1e252a; /* everblush_background_dark */
+@define-color bg #141b1e; /* everblush_background_dark */
 @define-color fg #dadada; /* everblush_foreground */
 @define-color gray1 #67b0e5; /* everblush_blue (mapped from a lighter gray for selected) */
 @define-color gray2 #2a3138; /* everblush_background_light */

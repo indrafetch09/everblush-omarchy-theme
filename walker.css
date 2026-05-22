@@ -14,27 +14,21 @@
  * white: #dadada
  * black: #1e252a
  */
-@define-color selected-text #67b0e5; /* everblush_blue (mapped from a light blue) */
+@define-color selected-text #e5c76b; /* everblush_blue (mapped from a light blue) */
 @define-color text #dadada; /* everblush_foreground */
-@define-color base #1e252a; /* everblush_background_dark */
+@define-color base #141b1e; /* everblush_background_dark */
 @define-color border #8ccf7e; /* everblush_background_light (mapped from a dark gray) */
-@define-color select #e5c76b; /* everblush_yellow (mapped from a yellowish color) */
 @define-color purple #c47fd5; /* everblush_magenta (mapped from purple) */
-@define-color surface #1e252a; /* everblush_background_dark */
+@define-color yellow #e5c76b; /* everblush_yellow (mapped from purple) */
 
 window .search-container,
 window .search {
-    background: alpha(@hover, 0.1);
-    color: @foreground;
-    border: 1px solid alpha(@border, 0.5);
+    background: alpha(@base, 0.1);
+    color: alpha(@purple);
+    border: 2px solid alpha(@yellow, 0.5);
     border-radius: 12px;
     padding: 8px 12px;
     margin: 4px 0;
     font-size: 14px;
     font-weight: 500;
-}
-
-window .search-container text {
-    color: @selected-text;
-    caret-color: @selected-text;
 }
