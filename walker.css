@@ -14,7 +14,7 @@
  * white: #dadada
  * black: #1e252a
  */
-@define-color selected-text #e57474; /* everblush_blue (mapped from a light blue) */
+@define-color selected-text #e57474; /* everblush_red */
 @define-color text #dadada; /* everblush_foreground */
 @define-color base #141b1e; /* everblush_background_dark */
 @define-color border #8ccf7e; /* everblush_background_light (mapped from a dark gray) */

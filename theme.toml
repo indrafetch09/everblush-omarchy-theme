@@ -2,7 +2,7 @@
 # Please review and update colors to fully match the Everblush palette.
 #
 # Everblush Palette:
-# background_dark: #1e252a
+# background_dark: #141b1e
 # background_light: #2a3138
 # foreground: #dadada
 # red: #e57474
@@ -12,7 +12,7 @@
 # magenta: #c47fd5
 # cyan: #63cdcf
 # white: #dadada
-# black: #1e252a
+# black: #141b1e
 [manager]
 marker_copied = { fg = "#8ccf7e", bg = "#8ccf7e" } # everblush_green
 marker_cut = { fg = "#e57474", bg = "#e57474" } # everblush_red
@@ -23,38 +23,38 @@ cwd = { fg = "#e5c76b" } # everblush_yellow
 hovered = { reversed = true }
 preview_hovered = { reversed = true }
 
-find_keyword = { fg = "#c47fd5", bg = "#1e252a" } # everblush_magenta, everblush_background_dark
+find_keyword = { fg = "#c47fd5", bg = "#141b1e" } # everblush_magenta, everblush_background_dark
 find_position = {}
 
 tab_active = { reversed = true }
 tab_inactive = {}
 tab_width = 1
 
-count_copied = { fg = "#1e252a", bg = "#8ccf7e" } # everblush_background_dark, everblush_green
-count_cut = { fg = "#1e252a", bg = "#e57474" } # everblush_background_dark, everblush_red
-count_selected = { fg = "#1e252a", bg = "#e5c76b" } # everblush_background_dark, everblush_yellow
+count_copied = { fg = "#141b1e", bg = "#8ccf7e" } # everblush_background_dark, everblush_green
+count_cut = { fg = "#141b1e", bg = "#e57474" } # everblush_background_dark, everblush_red
+count_selected = { fg = "#141b1e", bg = "#e5c76b" } # everblush_background_dark, everblush_yellow
 
 border_symbol = "│"
 border_style = { fg = "#dadada" } # everblush_foreground
 
 
 [mode]
-normal_main = { fg = "#1e252a", bg = "#67b0e5" } # everblush_background_dark, everblush_blue
-normal_alt = { fg = "#67b0e5", bg = "#1e252a" } # everblush_blue, everblush_background_dark
-select_main = { fg = "#1e252a", bg = "#c47fd5" } # everblush_background_dark, everblush_magenta
-select_alt = { fg = "#c47fd5", bg = "#1e252a" } # everblush_magenta, everblush_background_dark
-unset_main = { fg = "#1e252a", bg = "#e5c76b" } # everblush_background_dark, everblush_yellow
-unset_alt = { fg = "#e5c76b", bg = "#1e252a" } # everblush_yellow, everblush_background_dark
+normal_main = { fg = "#141b1e", bg = "#67b0e5" } # everblush_background_dark, everblush_blue
+normal_alt = { fg = "#67b0e5", bg = "#141b1e" } # everblush_blue, everblush_background_dark
+select_main = { fg = "#141b1e", bg = "#c47fd5" } # everblush_background_dark, everblush_magenta
+select_alt = { fg = "#c47fd5", bg = "#141b1e" } # everblush_magenta, everblush_background_dark
+unset_main = { fg = "#141b1e", bg = "#e5c76b" } # everblush_background_dark, everblush_yellow
+unset_alt = { fg = "#e5c76b", bg = "#141b1e" } # everblush_yellow, everblush_background_dark
 
 
 [status]
 sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
-overall = { fg = "#dadada", bg = "#1e252a" } # everblush_foreground, everblush_background_dark
+overall = { fg = "#dadada", bg = "#141b1e" } # everblush_foreground, everblush_background_dark
 
-progress_label = { fg = "#67b0e5", bg = "#1e252a", bold = true } # everblush_blue, everblush_background_dark
-progress_normal = { fg = "#1e252a", bg = "#1e252a" } # everblush_black, everblush_black
-progress_error = { fg = "#1e252a", bg = "#1e252a" } # everblush_black, everblush_black
+progress_label = { fg = "#67b0e5", bg = "#141b1e", bold = true } # everblush_blue, everblush_background_dark
+progress_normal = { fg = "#141b1e", bg = "#141b1e" } # everblush_black, everblush_black
+progress_error = { fg = "#141b1e", bg = "#141b1e" } # everblush_black, everblush_black
 
 perm_type = { fg = "#8ccf7e" } # everblush_green
 perm_read = { fg = "#e5c76b" } # everblush_yellow
@@ -88,7 +88,7 @@ hovered = { fg = "#c47fd5" } # everblush_magenta
 cols = 2
 separator = " - "
 separator_style = { fg = "#dadada" } # everblush_foreground
-mask = { bg = "#1e252a" } # everblush_background_dark
+mask = { bg = "#141b1e" } # everblush_background_dark
 rest = { fg = "#dadada" } # everblush_foreground
 cand = { fg = "#63cdcf" } # everblush_cyan
 desc = { fg = "#dadada" } # everblush_foreground
@@ -98,7 +98,7 @@ on = { fg = "#63cdcf" } # everblush_cyan
 run = { fg = "#c47fd5" } # everblush_magenta
 desc = {}
 hovered = { reversed = true, bold = true }
-footer = { fg = "#1e252a", bg = "#dadada" } # everblush_background_dark, everblush_foreground
+footer = { fg = "#141b1e", bg = "#dadada" } # everblush_background_dark, everblush_foreground
 
 [notify]
 title_info = { fg = "#8ccf7e" } # everblush_green
