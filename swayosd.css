@@ -21,7 +21,7 @@
 @define-color progress #e5c76b; /* everblush_yellow */
 
 window {
-    border-radius: 1;
+    border-radius: 0;
     opacity: 0.97;
     border: 2px solid @border-color;
 
