@@ -13,6 +13,7 @@
  * cyan: #63cdcf
  * white: #dadada
  * black: #1e252a
+ * darker_black: #141b1e
  */
-@define-color background #141b1e; /* everblush_background_dark */
-@define-color foreground #8ccf7e; /* everblush_foreground */
+@define-color background #1e252a; /* everblush_background_dark */
+@define-color foreground #8ccf7e; /* green */
