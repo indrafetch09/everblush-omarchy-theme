@@ -16,7 +16,7 @@
  */
 @define-color background     #141b1e; /* everblush_background_dark */
 @define-color foreground     #dadada; /* everblush_foreground */
-@define-color black          #1e252a; /* everblush_black */
+@define-color black          #141b1e; /* everblush_black */
 @define-color red            #e57474; /* everblush_red */
 @define-color green          #8ccf7e; /* everblush_green */
 @define-color yellow         #e5c76b; /* everblush_yellow */
