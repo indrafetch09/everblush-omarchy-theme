@@ -13,34 +13,31 @@
 # cyan: #63cdcf
 # white: #dadada
 # black: #1e252a
+[colors]
 [colors.primary]
-background = "#1e252a" # everblush_background_dark
-foreground = "#dadada" # everblush_foreground
-
-[colors.cursor]
-text = "#dadada" # everblush_background_dark
-cursor = "#67b0e5" # everblush_foreground
-
-[colors.selection]
-text = "#1e252a" # everblush_background_dark
-background = "#dadada" # everblush_foreground
+background = "#141b1e"
+foreground = "#dadada"
 
 [colors.normal]
-black = "#1e252a" # everblush_black
-red = "#e57474" # everblush_red
-green = "#8ccf7e" # everblush_green
-yellow = "#e5c76b" # everblush_yellow
-blue = "#67b0e5" # everblush_blue
-magenta = "#c47fd5" # everblush_magenta
-cyan = "#63cdcf" # everblush_cyan
-white = "#dadada" # everblush_white
+black   = "#141b1e"
+red     = "#e57474"
+green   = "#8ccf7e"
+yellow  = "#e5c76b"
+blue    = "#67b0e5"
+magenta = "#c47fd5"
+cyan    = "#63cdcf"
+white   = "#dadada"
 
 [colors.bright]
-black = "#2a3138" # everblush_background_light
-red = "#e57474" # everblush_red (bright)
-green = "#8ccf7e" # everblush_green (bright)
-yellow = "#e5c76b" # everblush_yellow (bright)
-blue = "#67b0e5" # everblush_blue (bright)
-magenta = "#c47fd5" # everblush_magenta (bright)
-cyan = "#63cdcf" # everblush_cyan (bright)
-white = "#dadada" # everblush_foreground (bright white)
+black   = "#232a2d"
+red     = "#e57474"
+green   = "#8ccf7e"
+yellow  = "#e5c76b"
+blue    = "#67b0e5"
+magenta = "#c47fd5"
+cyan    = "#63cdcf"
+white   = "#dadada"
+
+[colors.cursor]
+text   = "#141b1e"
+cursor = "#dadada"

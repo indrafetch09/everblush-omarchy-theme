@@ -14,14 +14,14 @@
  * white: #dadada
  * black: #1e252a
  */
-@define-color bg #141b1e; /* everblush_background_dark */
-@define-color fg #dadada; /* everblush_foreground */
-@define-color gray1 #67b0e5; /* everblush_blue (mapped from a lighter gray for selected) */
-@define-color gray2 #2a3138; /* everblush_background_light */
-@define-color gray3 #c47fd5; /* everblush_magenta (mapped from a medium gray for border) */
-@define-color gray4 #dadada; /* everblush_foreground */
-@define-color gray5 #dadada; /* everblush_foreground */
-@define-color fg_bright #dadada; /* everblush_foreground */
+@define-color bg #141b1e;
+@define-color fg #dadada;
+@define-color gray1 #8ccf7e;
+@define-color gray2 #232a2d;
+@define-color gray3 #67b0e5;
+@define-color gray4 #e5c76b;
+@define-color gray5 #c47fd5;
+@define-color fg_bright #dadada;
 
 window {
     background-color: @bg;
