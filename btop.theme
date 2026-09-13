@@ -1,22 +1,3 @@
-# Everblush Template: This file is a template generated from the 'kurenai' theme.
-# Please review and update colors to fully match the Everblush palette.
-#
-# Everblush Palette:
-# background_dark: #1e252a
-# background_light: #2a3138
-# foreground: #dadada
-# red: #e57474
-# green: #8ccf7e
-# yellow: #e5c76b
-# blue: #67b0e5
-# magenta: #c47fd5
-# cyan: #63cdcf
-# white: #dadada
-# black: #1e252a
-# ────────────────────────────────────────────────────────────
-# Bashtop theme - Everblush (Generated from Kurenai)
-# ────────────────────────────────────────────────────────────
-
 # Main background, empty for terminal default, need to be empty if you want transparent background
 theme[main_bg]="#141b1e"
 
@@ -27,56 +8,86 @@ theme[main_fg]="#dadada"
 theme[title]="#dadada"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#67b0e8"
+theme[hi_fg]="#67b0e5"
 
-# Background color of selected item in processes box
-theme[selected_bg]="#232a2d"
+# Background color of selected item in processes box. #dadada maps to
+# the foreground role in aether (terminal selection wants inverted contrast),
+# which renders as plain white on dark themes - indistinguishable from the
+# main text. #2c3235 gives a subtle highlight that still reads on a
+# dark background and is invisible-but-harmless on light backgrounds.
+theme[selected_bg]="#2c3235"
 
-# Foreground color of selected item in processes box
+# Foreground color of selected item in processes box. Use #dadada so
+# the row text stays readable on the lighter_bg highlight; the previous
+# #67b0e5 produced low-contrast blue-on-white in dark themes.
 theme[selected_fg]="#dadada"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#b3b9b8"
+theme[inactive_fg]="#232a2d"
 
-# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#67b0e8"
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling.
+# #e0e0e0 caps at #ffffff when the foreground is already pure white, so we
+# just bind it to #dadada directly.
+theme[graph_text]="#dadada"
 
-# Box outline and divider line color
-theme[cpu_box]="#67b0e8"
+# Background color of the percentage meters. Same fix as selected_bg - the
+# previous #dadada collapsed to the main fg.
+theme[meter_bg]="#2c3235"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
+# Use #63cdcf for a distinct accent instead of #e0e0e0 which capped to white.
+theme[proc_misc]="#63cdcf"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#c47fd5"
 theme[mem_box]="#8ccf7e"
-theme[net_box]="#6cbfbf"
-theme[proc_box]="#c47fd5"
-theme[div_line]="#67b0e8"
+theme[net_box]="#e57474"
+theme[proc_box]="#67b0e5"
 
-# Gradient for all meters and graphs
-theme[temp_start]="#e57474"
+# Box divider line and small boxes line color
+theme[div_line]="#232a2d"
+
+# Temperature graph color (Green -> Yellow -> Red)
+theme[temp_start]="#8ccf7e"
 theme[temp_mid]="#e5c76b"
-theme[temp_end]="#8ccf7e"
+theme[temp_end]="#e57474"
 
-theme[cpu_start]="#67b0e8"
-theme[cpu_mid]="#c47fd5"
-theme[cpu_end]="#6cbfbf"
+# CPU graph colors (Teal -> Blue -> Purple)
+theme[cpu_start]="#63cdcf"
+theme[cpu_mid]="#67b0e5"
+theme[cpu_end]="#c47fd5"
 
-theme[free_start]="#8ccf7e"
-theme[free_mid]="#e5c76b"
-theme[free_end]="#67b0e8"
+# Mem/Disk free meter
+theme[free_start]="#c47fd5"
+theme[free_mid]="#67b0e5"
+theme[free_end]="#63cdcf"
 
-theme[cached_start]="#6cbfbf"
-theme[cached_mid]="#c47fd5"
-theme[cached_end]="#e57474"
+# Mem/Disk cached meter
+theme[cached_start]="#67b0e5"
+theme[cached_mid]="#63cdcf"
+theme[cached_end]="#c47fd5"
 
-theme[available_start]="#8ccf7e"
-theme[available_mid]="#e5c76b"
-theme[available_end]="#67b0e8"
+# Mem/Disk available meter
+theme[available_start]="#e5c76b"
+theme[available_mid]="#e57474"
+theme[available_end]="#e57474"
 
-theme[used_start]="#e57474"
-theme[used_mid]="#c47fd5"
-theme[used_end]="#6cbfbf"
+# Mem/Disk used meter (Green -> Teal -> Blue)
+theme[used_start]="#8ccf7e"
+theme[used_mid]="#63cdcf"
+theme[used_end]="#67b0e5"
 
-theme[download_start]="#67b0e8"
-theme[download_mid]="#6cbfbf"
-theme[download_end]="#8ccf7e"
+# Download graph colors
+theme[download_start]="#e5c76b"
+theme[download_mid]="#e57474"
+theme[download_end]="#e57474"
 
-theme[upload_start]="#e57474"
-theme[upload_mid]="#e5c76b"
-theme[upload_end]="#c47fd5"
+# Upload graph colors (Green -> Teal -> Blue)
+theme[upload_start]="#8ccf7e"
+theme[upload_mid]="#63cdcf"
+theme[upload_end]="#67b0e5"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#63cdcf"
+theme[process_mid]="#67b0e5"
+theme[process_end]="#c47fd5"
