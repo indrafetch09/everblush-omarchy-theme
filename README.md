@@ -1,5 +1,5 @@
-# everblush-omarchy-theme
-i made everblush omarchy theme, probably, i used many reference in the community, so i should have write a credit on it soon.  
+# Everblush Omarchy Theme
+i made everblush omarchy theme.  
 
 # Install
 ```
